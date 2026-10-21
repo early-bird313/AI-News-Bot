@@ -1,0 +1,44 @@
+# Environment & Secrets (Never commit credentials)
+.env
+.env.local
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/.venv/
+backend/.venv_win/
+.venv/
+venv/
+ENV/
+env/
+
+# Database (Local SQLite DB)
+*.db*
+*.sqlite*
+*.sqlite3*
+backend/news.db*
+
+# Frontend Dependencies & Build Output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Logs & Temporary files
+logs/
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
